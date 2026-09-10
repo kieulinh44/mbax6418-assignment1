@@ -1,5 +1,7 @@
 # MBAX 6418 — Assignment 1: Sentiment & Emotion Classification of Gift-Card Reviews
 
+**Prepared by:** Linh Nguyen & Daniela Reyes
+
 A zero-shot LLM sentiment classifier for Amazon **Gift Cards** reviews. The model reads only the
 review's **title + text** and returns a sentiment class **and** a primary emotion. It never sees the
 star rating — the rating is only the ground truth it is later scored against. A second,
