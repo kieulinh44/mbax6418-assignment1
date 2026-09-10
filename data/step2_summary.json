@@ -1,0 +1,30 @@
+{
+  "title": "STEP 2 -- first 100 rows in file order (binary)",
+  "n": 100,
+  "accuracy": 0.98,
+  "per_class": {
+    "POSITIVE": {
+      "n": 93,
+      "correct": 92,
+      "accuracy": 0.989247311827957
+    },
+    "NEGATIVE": {
+      "n": 7,
+      "correct": 6,
+      "accuracy": 0.8571428571428571
+    }
+  },
+  "confusion": {
+    "POSITIVE": {
+      "POSITIVE": 92,
+      "NEGATIVE": 1
+    },
+    "NEGATIVE": {
+      "POSITIVE": 1,
+      "NEGATIVE": 6
+    }
+  },
+  "emotion_n": 87,
+  "emotion_agree": 24,
+  "emotion_agree_rate": 0.27586206896551724
+}

@@ -1,0 +1,44 @@
+{
+  "title": "STEP 6 -- balanced three-class run (seed=42)",
+  "attempted": 150,
+  "skipped": 2,
+  "n": 148,
+  "accuracy": 0.7027027027027027,
+  "per_class": {
+    "POSITIVE": {
+      "n": 50,
+      "correct": 49,
+      "accuracy": 0.98
+    },
+    "NEUTRAL": {
+      "n": 49,
+      "correct": 8,
+      "accuracy": 0.16326530612244897
+    },
+    "NEGATIVE": {
+      "n": 49,
+      "correct": 47,
+      "accuracy": 0.9591836734693877
+    }
+  },
+  "confusion": {
+    "POSITIVE": {
+      "POSITIVE": 49,
+      "NEUTRAL": 1,
+      "NEGATIVE": 0
+    },
+    "NEUTRAL": {
+      "POSITIVE": 5,
+      "NEUTRAL": 8,
+      "NEGATIVE": 36
+    },
+    "NEGATIVE": {
+      "POSITIVE": 2,
+      "NEUTRAL": 0,
+      "NEGATIVE": 47
+    }
+  },
+  "emotion_n": 131,
+  "emotion_agree": 17,
+  "emotion_agree_rate": 0.1297709923664122
+}

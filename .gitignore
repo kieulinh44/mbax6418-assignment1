@@ -1,0 +1,21 @@
+# Secrets & credentials must never be committed
+.env
+*.env
+**/config.yaml
+
+# The full source dataset is large and re-downloadable from the McAuley Lab
+# host; keep it out of the repo (only the small balanced sample in data/ is kept).
+# *.jsonl.gz
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+
+# Earlier standalone scratch script (superseded by classify.py)
+llm_sentiment_classifier.py
